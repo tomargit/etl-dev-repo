@@ -1,0 +1,25 @@
+#page {
+    //margin-left: 200px;
+}
+#maincontent {
+    float: right;
+    width: 80%;
+	height: 662px;
+    background-color: #F0F0F0;
+}
+#menuleftcontent{
+    float: left;
+    width: 20%;
+	height: 662px;
+    //margin-left: -200px;
+    background-color: #CCCCCC;
+}
+#clearingdiv {
+    clear: both;
+}
+#menuleftcontent a {
+	margin-left: 20px;
+	cursor: context-menu;
+	font-size: 13px;
+	margin-top: 10px;
+}
