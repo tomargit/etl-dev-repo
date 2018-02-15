@@ -11,13 +11,10 @@ class OuterHtml extends Component {
 				<a href="#" draggable="true" onDragStart={drag}>userTable</a>
 			</div>
 			<div id="maincontent" onDrop={addnode}  onDragOver={allowDrop}>
-				<div id="firstcontent">firstcontent</div>
-				<div id="secondcontent">secondcontent</div>
 			</div>
 			<div id="clearingdiv"></div>
 		</div>
     );
   }
 }
-
 export default OuterHtml;
